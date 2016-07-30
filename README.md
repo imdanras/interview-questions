@@ -61,13 +61,15 @@ add(2, 5); // 7
 add(2)(5); // 7
 ```
 
-	* ```Javascript
+	* 
+	```Javascript
 	function add(a, b) {
 	return a + b;
 	}
 	```
 
-	* ```Javascript
+	* 
+	```Javascript
 	function add(a) {
 		return function(b) {
 			return a + b;
