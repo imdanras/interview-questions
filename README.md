@@ -30,3 +30,16 @@
 ..* Placing the CSS `<link>` in the `<head>` section loads the styling before the page starts to render, so users see things like background colors as the page loads.
 
 ### CSS Questions
+
+### JS Questions
+
+### Database Questions
+
+### Ruby/Rails
+
+### Testing Questions
+
+### Coding Questions
+
+* Question: What is the value of foo? ```Javascript var foo = 10 + '20'; ```
+..* 
