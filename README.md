@@ -70,3 +70,9 @@ add(2)(5); // 7
 		}
 	}
 ```
+
+* Question: What value is returned from the following statement?
+
+```JavaScript
+"i'm a lasagna hog".split("").reverse().join("");
+```
