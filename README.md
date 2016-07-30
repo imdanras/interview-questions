@@ -52,6 +52,7 @@
 ```Javascript 
 var foo = 10 + '20';
 ```
+	
 	* 1020 prints out as an integer, which means JavaScript is smart enough to parse the '20' into 10 as an integer of 1020.
 
 * Question: How would you make this work?
