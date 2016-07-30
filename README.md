@@ -49,10 +49,10 @@
 ### Coding Questions
 
 * Question: What is the value of foo? 
+	* 1020 prints out as an integer, which means JavaScript is smart enough to parse the '20' into 10 as an integer of 1020.
 ```Javascript 
 var foo = 10 + '20';
 ```
-	1020 prints out as an integer, which means JavaScript is smart enough to parse the '20' into 10 as an integer of 1020.
 
 * Question: How would you make this work?
 
@@ -77,3 +77,16 @@ add(2)(5); // 7
 "i'm a lasagna hog".split("").reverse().join("");
 ```
 	goh angasal a m'i
+
+* Question: What is the outcome of the two alerts below?
+
+```Javascript
+var foo = "Hello";
+(function() {
+  var bar = " World";
+  alert(foo + bar);
+})();
+alert(foo + bar);
+```
+The result is a popup that says 'Hello World,' as well as an undefined message in the console that says 'bar' is not defined. Bar is not defined because it's only defined within the scope of the function call and does not exist outside of the function. Calling 'bar' in the alert is calling a variable that is not defined.
+
