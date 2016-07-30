@@ -76,3 +76,4 @@ add(2)(5); // 7
 ```JavaScript
 "i'm a lasagna hog".split("").reverse().join("");
 ```
+	...goh angasal a m'i
