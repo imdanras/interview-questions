@@ -89,4 +89,35 @@ var foo = "Hello";
 })();
 alert(foo + bar);
 ```
+* Question: What is the value of foo.length?
+ * 2
 
+ ```Javascript
+var foo = [];
+foo.push(1);
+foo.push(2);
+ ```
+
+* Question: What is the value of foo.x?
+
+	* undefined
+
+```Javascript
+var foo = {n: 1};
+var bar = foo;
+foo.x = foo = {n: 2};
+```
+
+* Question: What does the following code print?
+
+	* one
+	  three
+	  two
+
+	```Javascript
+	console.log('one');
+	setTimeout(function() {
+  		console.log('two');
+		}, 0);
+	console.log('three');
+	```
