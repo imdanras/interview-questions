@@ -60,17 +60,11 @@ var foo = 10 + '20';
 ```Javascript
 add(2, 5); // 7
 add(2)(5); // 7
-```
 
-	* 
-	```Javascript
 	function add(a, b) {
 	return a + b;
 	}
-	```
 
-	* 
-	```Javascript
 	function add(a) {
 		return function(b) {
 			return a + b;
