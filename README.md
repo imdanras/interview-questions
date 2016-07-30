@@ -72,13 +72,14 @@ add(2)(5); // 7
 ```
 
 * Question: What value is returned from the following statement?
+	* goh angasal a m'i
 
 ```JavaScript
 "i'm a lasagna hog".split("").reverse().join("");
 ```
-	goh angasal a m'i
 
 * Question: What is the outcome of the two alerts below?
+	* The result is a popup that says 'Hello World,' as well as an undefined message in the console that says 'bar' is not defined. Bar is not defined because it's only defined within the scope of the function call and does not exist outside of the function. Calling 'bar' in the alert is calling a variable that is not defined.
 
 ```Javascript
 var foo = "Hello";
@@ -88,5 +89,4 @@ var foo = "Hello";
 })();
 alert(foo + bar);
 ```
-The result is a popup that says 'Hello World,' as well as an undefined message in the console that says 'bar' is not defined. Bar is not defined because it's only defined within the scope of the function call and does not exist outside of the function. Calling 'bar' in the alert is calling a variable that is not defined.
 
