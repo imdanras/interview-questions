@@ -38,6 +38,47 @@
 
 ### CSS Questions
 
+* What is the difference between classes and IDs in CSS?
+	* IDs can only be used once, while classes can be used many times. IDs have a higher specificity, so an ID's properties will take precedence.
+
+* What's the difference between "resetting" and "normalizing" CSS? Which would you choose, and why?
+
+	* Reset gets rid of all browser styling, which means all styling must be done manually. Normalize tries to take care of any cross-browser differences and make them as consistent as possible.
+
+* Describe Floats and how they work.
+	* A float pushes an element to either the left or right, and if it's, say, a picture, text will flow around the picture to fill space.
+
+* Describe z-index and how stacking context is formed.
+	* Z-index is what determines vertical stacking order, or overlap. the higher the number, the more likely it is that that element will be stacked on top (or most visible).
+
+* Have you ever used a grid system, and if so, what do you prefer?
+	* Yes. I've used Materialize and Bootstrap. I prefer Materialize's documentation, but Bootstrap seems to be easier to customize/overwrite.
+
+* Have you used or implemented media queries or mobile specific layouts/CSS?
+	* Yes, both by using frameworks like Boostrap and by defining my own media queries.
+
+* How do you optimize your webpages for print?
+	* By having a separate css file that only gets applied when printing.
+
+* What are the advantages/disadvantages of using CSS preprocessors?
+	* A big advantage is organization, as well as more structured code. A disadvantage is that the nesting of selectors can get long very quickly.
+
+* Explain how a browser determines what elements match a CSS selector.
+	* As the browser parses the HTML, it reads the selectors from right to left and applies CSS when a match is found. If nothing is found, the rule is not used.
+
+* Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models.
+	* the 3 (or 4) components to the box model are the element itself, its padding, its border, and its margin. Increasing padding increases the space from the edge of the element and the content within the element, making it appear stretched. Border refers to the space between the padding and before the element's edge. Margin is the space directly on the outside of the element.
+
+
+* What does * { box-sizing: border-box; } do? What are its advantages?
+	* This sets the box model to the well-known border-box. This is for older browsers that may not support the border-box by default.
+
+* What's the difference between inline and inline-block?
+	* Displaying an element as inline-block allows you to give the element a height and still display it like an inline element.
+
+* What's the difference between a relative, fixed, absolute and statically positioned element?
+	* 
+
 ### JS Questions
 
 ### Database Questions
