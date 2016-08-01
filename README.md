@@ -77,9 +77,18 @@
 	* Displaying an element as inline-block allows you to give the element a height and still display it like an inline element.
 
 * What's the difference between a relative, fixed, absolute and statically positioned element?
-	* 
+	* Static is default - only used to clear a previously defined position. Relative is relative to itself - if you set position to relative and top: 10px, it will be 10px lower that it normally would be. Absolute sets a location absolutely - It is not affected by other elements.  Fixed sets the position relative to the viewport and it will always be on the screen, even when scrolling.
 
 ### JS Questions
+
+* Explain event delegation
+	* Allows you to select many children of a paretn div by referring to the parent instead of each individual child.
+
+* Explain how this works in JavaScript
+	* `this` refers to the current item or object being worked with.
+
+* Explain how prototypal inheritance works
+	* 
 
 ### Database Questions
 
