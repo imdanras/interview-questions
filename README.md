@@ -88,6 +88,18 @@
 	* `this` refers to the current item or object being worked with.
 
 * Explain how prototypal inheritance works
+	* Each object will have a prototype, and the prototype's properties can be accessed directly fromt he main object.
+
+* Why is it called a Ternary expression, what does the word "Ternary" indicate?
+	* It's a one line if-then statement that takes 3 parameters: a conditional statement, something to be returned if condition is true, and something to be returned if condition is false.
+
+* What's the difference between a variable that is: null, undefined or undeclared?
+	* Undefined means that the variable doesn't exist. Null means the variable exists, but it lacks value.
+
+* What is a closure, and how/why would you use one?
+	* A way to store a reference to a variable inside a function
+
+* What's a typical use case for anonymous functions?
 	* 
 
 ### Database Questions
